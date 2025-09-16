@@ -1,53 +1,17 @@
-# Red Eclipse
+# Red Engine
 
-Red Eclipse is an old-school arena shooter for the modern age. Building on decades of hardcore
-    action, from Doom, to Quake, to Halo, to Team Fortress, to Mirror's Edge. Run, gun, and parkour
-    your way to your next frag!
+Red Engine is a standalone engine based on the game Red Eclipse, intended to be easy to make a new project with. I
+liked the graphical look of the game, so I decided to fork the engine to fit other projects.
 
-    * Free and open source software; no microtransactions or other payments necessary
-    * Features parkour gameplay, such as wall running, boosts, dashing, and other tricks
-    * Popular gamemodes with an array of mutators and variables
-    * A built-in editor lets you create your own release-quality maps cooperatively online
-    * Available for Windows and GNU/Linux
+Currently intended changes to be implemented:
 
-Download for free at https://www.redeclipse.net/
-
-## About
-
-The project is a free and open source game built using SDL and OpenGL which allows it to be ported
-    to many platforms; you can [download a package](https://www.redeclipse.net/download) for Windows
-    and GNU/Linux; or grab a development copy from our [Git repository](https://www.redeclipse.net/devel)
-    and live on the bleeding edge.
-
-In a true open source by the people for the people nature, we try to work closely with the gaming
-    and open source communities to provide a better overall experience, aiming to create a game
-    environment that is fun and easy to play, while still having elements to master.
-
-If you think you might have something to contribute to the game or community, please feel free to
-    drop by our [Discord server](https://www.redeclipse.net/chat) or [forums](https://www.redeclipse.net/forums)
-    and talk to us directly. We try to maintain a standard of friendly behaviour in our community,
-    so don't be afraid to speak up and have your say in building this game for us all!
-
-For creators, the full power of a highly expanded [Tesseract](http://tesseract.gg/) engine is at
-    your fingertips in the included realtime easy-to-use WYSIWYG editor that is capable of creating
-    maps both offline and online with other people in cooperative edit mode.
-
-## Distribution
-
-This game is primarily distributed via Steam. For the most bleeding-edge version of the game, or
-    for those who are unable to get a Steam account, it is possible to compile the game from
-    source, following the [Install Guide](https://www.redeclipse.net/docs/Install-Guide).
-
-## Get Involved
-
-You're encouraged to help the project by joining in with the rest of the community to make a better
-    project! You can do this by participating in our Community, using the development version and
-    reporting any issues, ideas, suggestions or comments you may have.
-
-Our main method of community interaction is via the [Discord server](https://www.redeclipse.net/chat).
-    Here, you can talk directly to the Red Eclipse developers, contributors, and supporters;
-    whether you just want to have a chat, report a problem, or make a suggestion, this is the best
-    place to do it.
+ * Porting from SDL2 to SDL3
+ * Splitscreen and multi monitor multiplayer
+ * Gamepad support with gyro implementation
+ * X86 platform removed, AARCH64 support to be added
+ * Switch windows build from MSVC to Mingw-based
+ * Epic Store connectivity support, maybe with GOG added down the road
+ * Localization improvements
 
 ## Open Source
 
@@ -56,7 +20,11 @@ The project is Free and Open Source, meaning that you can both use it for free a
     into what you see today. They are regular people just like you who volunteer their time or
     donate in the spirit of making a really cool game. Your name could be down here, too!
 
-## Credits
+## Red Eclipse Credits
+
+The below list acknowledges the efforts of the developers of Red Eclipse. Red Engine is an independent fork project not
+endorsed by the original developers of the game.
+
 
 ```
 +-------------------------------------------------------------------------------+
